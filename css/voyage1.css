@@ -1,0 +1,145 @@
+#arbody1 {
+	background-image: url("https://www.promociel.fr/media/catalog/product/cache/2/image/363x/040ec09b1e35df139433887a97daa66f/D/r/Drapeau_Espagne_10.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#h1v1 {
+	color:#ffeb00;
+	text-align: center;
+	padding: 2px;
+	animation: apparition 5s infinite;
+}
+
+@keyframes apparition{
+	0%{opacity: 0}
+	5%{opacity: 0}
+	10%{opacity: 1}
+	15%{opacity: 0}
+	20%{opacity: 1}
+    30% { transform: rotate(0deg) scale(1.0); }
+    35% { transform: rotate(10deg) scale(1.1); }
+    50% { transform: rotate(180deg) scale(1.5); }
+    100% { transform: rotate(360deg) scale(1.0); }
+
+}
+
+.arimp1{
+    font-weight: 700;
+    color: black;
+}
+
+.arimg1{
+
+	width: 330px;
+	height: 330px;
+
+}
+
+.arimg3:hover{
+	filter: blur(0px);
+	width: 330px;
+	height: 330px;
+}
+
+.arimg3{
+
+	width: 330px;
+	height: 330px;
+filter: blur(5px);
+
+}
+
+.arimg2{
+
+	width: 130px;
+	height: 130px;
+
+}
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+#arbox1{
+
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-between;
+	border:solid black 2px;
+}
+
+#arbox2{
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+}
+
+#arbox3{
+
+	text-align: center;
+}
+
+
+li{
+
+	    font-size: 31px;
+}
+
+
+.arp1 {
+	font-size: 25px;
+	color: red;
+	padding: 3px;
+		animation: vien 10s;
+}
+
+@keyframes vien{
+
+from {
+transform: translatex(200%)
+}
+to {
+
+transform: translatex(0%)
+
+}
+}
+
+
+#ar1s{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 2px solid black;
+}
+
+td{
+
+	font-size: 22px;
+}
+#arcaption1 {
+
+	border:solid black 2px;
+	font-size: 25px;
+	border-radius: 12px;
+}
+
+#arlogo{
+
+	height: 225px;
+	width: 225px;
+}
