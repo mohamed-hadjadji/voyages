@@ -1,13 +1,69 @@
 .body3{
-	background: url("../istanbul/background.jpg")top left / 100% 100%;
+	background: url("../img/background.jpg")top left / 100% 100%;
 	background-attachment:fixed;
 	margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.header3{
-	background: url("../istanbul/back1.jpg")top left / 100% 100%;
+
+
+.menu, .menu ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display:inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color: #E52646;
+}
+.menu li li {
+  display:inherit;
+}
+.menu a {
+  display:block;
+  padding:5px 50px;
+  text-decoration: none;
+  color:#fff;
+  font-family:arial;
+}
+.menu ul li a {
+  padding:5px 8px;
+}
+.menu ul {
+  position: absolute;
+  z-index: 1000;
+  min-width:100%;
+  white-space: nowrap;
+  text-align: left;
+}
+.menu ul ul {
+  left:100%;
+  top:0;
+  overflow: hidden;
+  max-width: 0;
+  min-width: 0;
+  transition: 0.3s all;
+}
+.menu ul li:hover ul {
+  max-width: 30em;
+}
+.menu ul li {
+  max-height:0;
+  overflow: hidden;
+  transition:all 0.8s;
+}
+.menu li:hover li {
+  max-height: 15em;
+  overflow: visible;
+}
+
+.nav3{
+	background: url("../img/back1.jpg")top left / 100% 100%;
 	width: 100%;
 	height: 500px;
 	animation:animback 14s infinite;
@@ -15,10 +71,10 @@
 }
 
 @keyframes animback {
-    25% {background:url("../istanbul/back2.jpg")top left / 100% 100%;}
-    50% {background:url("../istanbul/back3.jpg")top left / 100% 100%;}
-    75% {background:url("../istanbul/back4.jpg")top left / 100% 100%;}
-    100% {background:url("../istanbul/back5.jpg")top left / 100% 100%;}
+    25% {background:url("../img/back2.jpg")top left / 100% 100%;}
+    50% {background:url("../img/back3.jpg")top left / 100% 100%;}
+    75% {background:url("../img/back4.jpg")top left / 100% 100%;}
+    100% {background:url("../img/back5.jpg")top left / 100% 100%;}
 }
 .affich{
 	display: flex;
@@ -52,7 +108,7 @@ button:hover {
   opacity:1;
 }
 
-.nav3{
+.section3{
 	display: flex;
 	flex-direction: row;
     justify-content: space-around;
@@ -86,16 +142,16 @@ button:hover {
 	height: 50%;
 }
 #imge1{
-	background:url("../istanbul/istanbul-classics.jpg")top left / 100% 100%;
+	background:url("../img/istanbul-classics.jpg")top left / 100% 100%;
 }
 #imge2{
-	background:url("../istanbul/ottoman-relics.jfif")top left / 100% 100%;
+	background:url("../img/ottoman-relics.jfif")top left / 100% 100%;
 }
 #imge3{
-	background:url("../istanbul/guided-basilica.jpg")top left / 100% 100%;
+	background:url("../img/guided-basilica.jpg")top left / 100% 100%;
 }
 #imge4{
-	background:url("../istanbul/guided-topkapi.jpg")top left / 100% 100%;
+	background:url("../img/guided-topkapi.jpg")top left / 100% 100%;
 }
 
 #text{
@@ -104,7 +160,7 @@ button:hover {
 .reser{
 	background-color: #0BCCE8;
 }
-.section3{
+.section4{
 	display: flex;
 	flex-direction: row;
 	background-color: #F3F7F8;
@@ -166,16 +222,16 @@ transform: translatex(0%)
 	height: 50%;
 }
 #pic1{
-	background:url("../istanbul/hagia-sophia.jpg")top left / 100% 100%;
+	background:url("../img/hagia-sophia.jpg")top left / 100% 100%;
 }
 #pic2{
-	background:url("../istanbul/guided-museum.jpg")top left / 100% 100%;
+	background:url("../img/guided-museum.jpg")top left / 100% 100%;
 }
 #pic3{
-	background:url("../istanbul/turkish-marbling.jfif")top left / 100% 100%;
+	background:url("../img/turkish-marbling.jfif")top left / 100% 100%;
 }
 #pic4{
-	background:url("../istanbul/cooking.jpg")top left / 100% 100%;
+	background:url("../img/cooking.jpg")top left / 100% 100%;
 }
 
 .defin{
@@ -195,7 +251,7 @@ transform: translatex(0%)
 	padding: 15px;
 }
 
-.section3 a {
+.section4 a {
 	text-decoration:none;
 
 }
@@ -220,4 +276,62 @@ transform: translatex(0%)
 	height: 450px;
 	padding: 20px;
 	border-radius: 20px;
+}
+
+#contact {
+    background-color: black;
+    height: 150px;
+    padding: 10px;
+    padding-bottom: 27px;
+
+}
+
+#contact p {
+   
+    font-family: 'Impact';
+    font-size: 25px;
+    color: red;
+    
+}
+
+ul.social {
+    list-style: none;
+    display: block;
+    padding: 7px;
+
+}
+ul.social li {
+    display: inline-block;
+    margin: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+ul.social li a {
+    display: block;
+    border-radius: 3px;
+    color: white !important;
+    padding: 4px;
+    height: 100%;
+}
+
+ul.social li.facebook a {
+    background-image: url("../img/facebook-logo.jpg");
+    background-size: 50px;
+    background-position: center;
+}
+ul.social li.linkedin a {
+    background-image: url("../img/LinkedIn-Logo.jpg");
+    background-size: 50px;
+    background-position: center;
+}
+ul.social li.twitter a {
+    background-image: url("../img/twitter-logo.jpg");
+    background-size: 38px;
+    background-position: center;
+}
+ul.social li.instagram a {
+    background-image: url("../img/instagram-logo.jfif");
+    background-size: 45px;
+    background-position: center;
 }
