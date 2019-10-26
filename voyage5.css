@@ -11,7 +11,7 @@ body{
 }
 
 header{
-	background-image: url("../img/headertunis.png");
+	background-image: url("../Voyages/img/headertunis.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-left: 0px;
@@ -318,22 +318,30 @@ ul.social li a {
 }
 
 ul.social li.facebook a {
-    background-image: url("../logofacebook.png");
+    background-image: url("../Voyages/social/facebook-logo.jpg");
     background-size:50px;
     background-position: center;
 }
 ul.social li.linkedin a {
-    background-image: url("../lindlekin.png");
+    background-image: url("../Voyages/social/Linkedin-Logo.jpg");
     background-size: 50px;
     background-position: center;
 }
 ul.social li.twitter a {
-    background-image: url("../logotwitter.png");
+    background-image: url("../Voyages/social/twitter-logo.jpg");
     background-size: 38px;
     background-position: center;
 }
 ul.social li.instagram a {
-    background-image: url("../logoinsta.jpg");
+    background-image: url("../Voyages/social/instagram-logo.jfif");
     background-size: 45px;
     background-position: center;
+}
+footer{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: purple;
+	height: 100px;
 }
