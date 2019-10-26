@@ -1,0 +1,217 @@
+.arbody4{
+	background-color: #C6EEED;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@keyframes animback {
+    25% {background:url("https://cdn.civitatis.com/reino-unido/londres/galeria/noria-londres.jpg")top left / 100% 100%;}
+    50% {background:url("https://cdn.civitatis.com/reino-unido/londres/galeria/abadiaWestminster.jpg")top left / 100% 100%;}
+    75% {background:url("https://cdn.civitatis.com/reino-unido/londres/galeria/metro-londres.jpg")top left / 100% 100%;}
+    100% {background:url("https://cdn.civitatis.com/reino-unido/londres/galeria/londres-informacion.jpg")top left / 100% 100%;}
+}
+
+#arlondre1{
+text-align: center;
+font-size: 50px;
+color:blue;
+animation: londre 10s infinite;
+}
+
+@keyframes londre{
+  0% { transform: translate(1px, 1px);
+   color:red; }
+  10% { transform: translate(-3px, -5px) rotate(-1deg); }
+  20% { transform: translate(-6px, 0px) rotate(1deg); }
+  30% { transform: translate(6px, -3px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); color:green; }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+
+}
+
+#arh3{
+
+	text-align: center;
+	font-size: 25px;
+
+}
+#artest{
+
+	border:solid 1px black;
+}
+
+.arli{
+	color:red;
+	font-size: 20px;
+	width: 220px;
+	height: 50px;
+	text-align: center;
+	margin-left: 40%;
+background-color: #80808000;
+    list-style: decimal;
+
+}
+
+.arul{
+text-align: center;
+
+}
+.arheader4{
+	background-color: green;
+	width: 100%;
+	height: 500px;
+	border-style:solid;
+	background-image: url("https://cdn.londonandpartners.com/-/media/images/london/visit/general-london/towerbridgecopyrightvisitlondoncomantoinebuchet.jpg?mw=1920&hash=B6672601055B38B34C592E0160B0445AA063B876");
+    animation: animback 14S infinite
+}
+.ararticle4{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 450px;
+}
+.arintro{
+	background-image:url("https://cdn.londonandpartners.com/visit/generic/objects/91169-640x360-101-image-640.jpg");
+	background-size: cover;	
+		width: 100%;
+		height: 100%;
+	border-style:solid;
+}
+.artab {
+	background-color:black ;
+	border-style:solid;
+	width: 50%;
+}
+.arsection4{
+	display: flex;
+	flex-direction: row;
+	background-color: #EEC6E7;
+	width: 100%;
+	height: 600px;
+}
+
+
+
+.arpanoram1, .arpanoram4{
+	display: flex;
+	flex-direction: column;	
+	width: 66.66%;
+	height: 600px;
+}
+#arpano1{
+	background: url("https://cdn.londonandpartners.com/asset/cbb431b093858a5a1fb9f52fe10d7673.jpg") top left / 100% 100%;
+	height: 300px;
+	border-style:solid;
+	
+}
+ #arpano4{
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	width: 100%;
+}
+
+#arpano2{
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+	width: 100%;
+	background: url("https://img.static-bookatable.com/f150a694-226b-4376-b0b3-bed569a3968b.jpg?id=9b528daf-d1a8-4108-80b2-1fdce0fea189.jpg&404=bat2%2F404-restaurant.jpg&height=466&width=700&quality=75&mode=crop&scale=both") top left / 100% 100%;
+
+}
+.arpanoram3{
+	display: flex;
+	flex-direction: column;
+	width: 33.33%;
+}
+
+.arpanoram2{
+		display: flex;
+	flex-direction: column;
+	width: 33.33%;
+	background-image: url("https://cdn.londonandpartners.com/visit/general-london/areas/62997-640x360-tube-sign.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.arpanoram2:hover{
+	background-image: url("http://www.escapadesalondres.com/medias/images/walking-london-tube-map-ok0-n.jpg?fx=r_1200_801");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#armipan1, #armipan2{
+	width: 50%;
+}
+
+#armipan1, #armipan2, #armipan3,{
+	border-style:solid;
+	height: 200px;	
+}
+
+
+#ararp{
+
+	color:white;
+}
+
+#arbvn{
+
+color: #E91E63;
+    font-size: 25px;
+    background: grey;
+}
+
+}
+
+
+.arh2{
+	color:white;
+	text-align: center;
+}
+
+
+#harry{
+opacity: 0;
+}
+
+#harry:hover{
+
+	animation: harry 5s infinite;
+	opacity: 1;
+}
+
+@keyframes harry{
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+
+a:visited {
+    color: #d311d6; 
+        margin-left: 7px; 
+        text-decoration: none; 
+        font-size: x-small; 
+        font-family: Arial; 
+        font-style: normal; 
+        font-weight: bold;
+    }
+
+
+    
