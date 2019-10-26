@@ -263,12 +263,20 @@ transform: translatex(0%)
 	color:#411588;
 
 }
-.main3{
+#main3{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	width: 100%;
 	margin-top: 150px;
+}
+#main3 h2{
+	color: blue;
+	font-size: 26px;
+}
+#main3 h3{
+	color: red;
+	font-size: 18px;
 }
 .form{
 	background-color: white;
@@ -283,6 +291,8 @@ transform: translatex(0%)
     height: 150px;
     padding: 10px;
     padding-bottom: 27px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 
 }
 
