@@ -205,22 +205,22 @@ ul.social li a {
 }
 
 ul.social li.facebook a {
-    background-image: url("social/facebook-logo.jpg");
+    background-image: url("../Voyage/img/facebook-logo.jpg");
     background-size: 50px;
     background-position: center;
 }
 ul.social li.linkedin a {
-    background-image: url("social/LinkedIn-Logo.jpg");
+    background-image: url("../Voyage/img/LinkedIn-Logo.jpg");
     background-size: 50px;
     background-position: center;
 }
 ul.social li.twitter a {
-    background-image: url("social/twitter-logo.jpg");
+    background-image: url("../Voyage/img//twitter-logo.jpg");
     background-size: 38px;
     background-position: center;
 }
 ul.social li.instagram a {
-    background-image: url("social/instagram-logo.jfif");
+    background-image: url("../Voyage/img/instagram-logo.jfif");
     background-size: 45px;
     background-position: center;
 }
