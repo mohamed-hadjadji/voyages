@@ -12,7 +12,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-image: url(../img/headermartinique.jpg);
+	background: url(../img/headermartinique.jpg)top left / 100% 100%;
 	width: 100%;
 	height: 400px;
 
@@ -104,8 +104,8 @@ p{
 	flex-direction:column;
 	justify-content: space-around;
 	width: 100%;
-	background-image: url(../img/fondmartinique.jpg);
-	background-size: cover;
+	background: url(../img/fondmartinique.jpg)top left / 100% 100%;
+	
 
 }
 #corp1{
@@ -147,11 +147,11 @@ p{
   	border-radius: 50%; 
 }
 #culturemartinique{
-	background-image: url(../img/fondmartinique.jpg);
-	background-repeat: no-repeat;
+	
 	display: flex;
 	flex-direction: row;
 	height: 600px;
+	margin-left: 100px;
 
 }
 
@@ -173,12 +173,17 @@ p{
 }
 .reserver{
 	display: flex;
-	flex-direction:row;
+	flex-direction:column;
+	
+	
+	margin-bottom: 100px;
+}
+.carro{
+	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap:wrap;
-	background-image: url(../img/fondmartinique.jpg);
-	background-repeat: no-repeat;
-	height:870px;
+	margin: 150px;
 }
 
 .hotel{
@@ -205,6 +210,7 @@ p{
 	border-radius: 20px;
 	height:300px;
 	width: 400px;
+	margin-left: 600px;
 
 }
 
@@ -288,12 +294,8 @@ ul.social li.instagram a {
     background-size: 45px;
     background-position: center;
 }
-
-footer{
+footer p{
+	font-size: 13px;
 	color: white;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	background-color: purple;
-	height: 100px;
+	text-align: center;
 }
