@@ -1,0 +1,299 @@
+body{ 
+	background-color: red;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	
+}
+header{
+	color:black;
+	font-family: georgia, serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-image: url(../img/headermartinique.jpg);
+	width: 100%;
+	height: 400px;
+
+}
+
+.menu, .menu ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display:inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color:#3AF24B;
+}
+.menu li li {
+  display:inherit;
+}
+.menu a {
+  display:block;
+  padding:5px 50px;
+  text-decoration: none;
+  color:#fff;
+  font-family:arial;
+}
+.menu ul li a {
+  padding:5px 8px;
+}
+.menu ul {
+  position: absolute;
+  z-index: 1000;
+  min-width:100%;
+  white-space: nowrap;
+  text-align: left;
+}
+.menu ul ul {
+  left:100%;
+  top:0;
+  overflow: hidden;
+  max-width: 0;
+  min-width: 0;
+  transition: 0.3s all;
+}
+.menu ul li:hover ul {
+  max-width: 30em;
+}
+.menu ul li {
+  max-height:0;
+  overflow: hidden;
+  transition:all 0.8s;
+}
+.menu li:hover li {
+  max-height: 15em;
+  overflow: visible;
+}
+/* background des liens menus */
+.violet {
+
+
+}
+.violet li {
+    
+}
+.violet li:hover {
+    background:#65537A;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: verdana,serif;
+	font-size: 50px;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+p{
+	font-family: georgia,serif;
+	text-align: center;
+	color: white;
+
+}
+
+#martinique{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	width: 100%;
+	background-image: url(../img/fondmartinique.jpg);
+	background-size: cover;
+
+}
+#corp1{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+#presentationmartinique{
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: 300px;
+
+}
+#cadre{
+	margin-right: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 900px;
+	height: 400px;
+}
+#fotomartinique{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap:nowrap;
+	background-color:green;
+	width: 200px;
+  	height: auto; 
+  	transition: .3s ease-in-out; 
+}
+#fotomartinique img:hover {
+  	width: 200px; 
+  	height: 200px;
+  	border-radius: 50%; 
+}
+#culturemartinique{
+	background-image: url(../img/fondmartinique.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+
+}
+
+#tableau{
+	border-radius: 10px;
+	height:200px;
+	width: 400px;
+	
+
+}
+#tableau {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#tableau:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.reserver{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	background-image: url(../img/fondmartinique.jpg);
+	background-repeat: no-repeat;
+	height:870px;
+}
+
+.hotel{
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 50px;
+	background-color:#3AF24B;
+	height:265px;
+	width: 250px;
+}
+
+.fotohotel{
+	border-radius: 20px;
+	height:180px;
+	width: 250px;
+	
+}
+
+.formulaire{
+	margin-top: 30px;
+	background-color:#3AF24B;
+	border-radius: 20px;
+	height:300px;
+	width: 400px;
+
+}
+
+.formulaire:hover{
+    background-color: green;
+}
+
+form{
+	color: white;
+	text-align: center;
+}
+
+table, td ,th{
+	margin-left: 20px;
+	border:solid;
+	border-collapse:collapse;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+td {
+	width: 404px;
+}
+#contact {
+    background-color: black;
+    height: 150px;
+    padding: 10px;
+    padding-bottom: 27px;
+
+}
+
+#contact p {
+   
+    font-family: 'Impact';
+    font-size: 22px;
+    color: purple;
+    
+}
+
+ul.social {
+    list-style: none;
+    display: block;
+    padding: 7px;
+
+}
+ul.social li {
+    display: inline-block;
+    margin: 20px;
+    width: 32px;
+    height: 32px;
+}
+
+ul.social li a {
+    display: block;
+    border-radius: 3px;
+    color: red;
+    padding: 4px;
+    height: 100%;
+}
+
+ul.social li.facebook a {
+    background-image: url("../img/facebook-logo.jpg");
+    background-size:50px;
+    background-position: center;
+}
+ul.social li.linkedin a {
+    background-image: url("../img/Linkedin-Logo.jpg");
+    background-size: 50px;
+    background-position: center;
+}
+ul.social li.twitter a {
+    background-image: url("../img/twitter-logo.jpg");
+    background-size: 38px;
+    background-position: center;
+}
+ul.social li.instagram a {
+    background-image: url("../img/instagram-logo.jfif");
+    background-size: 45px;
+    background-position: center;
+}
+
+footer{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: purple;
+	height: 100px;
+}
