@@ -10,18 +10,20 @@ header{
 	background-color:#0000ff00;
 }
 
+
 .menu, .menu ul {
   padding:0;
   margin:0;
   list-style: none;
   text-align: center;
+  background-color: purple;
 }
 
 .menu li {
   display:inline-block;
   vertical-align: top;
   position: relative;
-  background-color:#3AF24B;
+  background-color:black;
 }
 .menu li li {
   display:inherit;
@@ -85,7 +87,7 @@ header{
 #arlondre1{
 text-align: center;
 font-size: 50px;
-color:blue;
+color:purple;
 animation: londre 10s infinite;
 }
 
@@ -96,12 +98,12 @@ animation: londre 10s infinite;
   20% { transform: translate(-6px, 0px) rotate(1deg); }
   30% { transform: translate(6px, -3px) rotate(0deg); }
   40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); color:green; }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); color:#795aa2; }
   60% { transform: translate(-3px, 1px) rotate(0deg); }
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); color:purple; }
 
 
 }
@@ -233,9 +235,10 @@ text-align: center;
 
 #arbvn{
 
-color: #E91E63;
+color: #000000;
     font-size: 25px;
-    background: grey;
+    background: #80808080;
+    margin-top: 290px;
 }
 
 }
@@ -244,6 +247,28 @@ color: #E91E63;
 .arh2{
 	color:white;
 	text-align: center;
+
+}
+#eye{
+      margin-top: 50px;
+    margin-left: 60px;
+}
+#metro{
+  text-align: center;
+}
+
+#top{
+  text-align: center;
+}
+
+#top2{
+margin-top: 300px;
+    font-size: 27px;
+    color: #FFEB3B;
+}
+
+#resto{
+  text-align: center;
 }
 
 
@@ -331,7 +356,7 @@ footer{
   flex-direction: row;
   justify-content: center;
   background-color: purple;
-  height: 100px;
+  height: 22px;
 }
 
 #contact {

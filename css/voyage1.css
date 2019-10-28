@@ -1,5 +1,5 @@
 #arbody1 {
-	background-image: url("https://www.promociel.fr/media/catalog/product/cache/2/image/363x/040ec09b1e35df139433887a97daa66f/D/r/Drapeau_Espagne_10.jpg");
+	background-image: url("https://www.art-deco-stickers.fr/14990/stickers-muraux-deco-danseuse-flamenco.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -8,7 +8,9 @@ header{
 	height:200px;
 }
 
-
+.couleur{
+  color:white;
+}
 .menu, .menu ul {
   padding:0;
   margin:0;
@@ -62,6 +64,7 @@ header{
   max-height: 15em;
   overflow: visible;
 }
+
 /* background des liens menus */
 .violet {
 
@@ -96,7 +99,7 @@ header{
 
 .arimp1{
     font-weight: 700;
-    color: black;
+    color: #b8b3b3;
 }
 
 .arimg1{
@@ -136,7 +139,6 @@ filter: blur(5px);
 	display: flex;
 	flex-direction: row;
 	justify-content:  space-between;
-	border:solid black 2px;
 }
 
 #arbox2{
@@ -160,7 +162,7 @@ li{
 
 .arp1 {
 	font-size: 25px;
-	color: red;
+	color: #b8b3b3;
 	padding: 3px;
 		animation: vien 10s;
 }
@@ -191,20 +193,26 @@ table
 {
     border-collapse: collapse;
 }
-td, th /* Mettre une bordure sur les td ET les th */
-{
-    border: 2px solid black;
-}
+
+
+
+ th{
+
+  font-size: 25px;
+  color: 
+ }
 
 td{
-
+border: 2px solid white;
 	font-size: 22px;
+  color:white;
 }
 #arcaption1 {
 
-	border:solid black 2px;
+	border:solid white 2px;
 	font-size: 25px;
 	border-radius: 12px;
+  color: #ffeb00;
 }
 
 #arlogo{
@@ -257,15 +265,12 @@ ul.social li.instagram a {
 
 footer{
 	color: white;
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	background-color: black;
-	height: 100px;
 }
 
 #contact {
-    background-color: red;
+    background-color: #d53232;
     height: 150px;
     padding: 10px;
     padding-bottom: 27px;
@@ -276,6 +281,13 @@ footer{
    
     font-family: 'Impact';
     font-size: 22px;
-    color: purple;
+    color: #ffeb00;
     
 }
+
+#lien{
+
+  font-size: 35px;
+  color:#ffeb00;
+}
+
