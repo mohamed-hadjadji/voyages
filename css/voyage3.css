@@ -272,7 +272,8 @@ transform: translatex(0%)
 }
 #main3 h2{
 	color: blue;
-	font-size: 26px;
+	font-size: 30px;
+	text-align: center;
 }
 #main3 h3{
 	color: red;
@@ -281,11 +282,30 @@ transform: translatex(0%)
 .form{
 	background-color: white;
 	width: 350px;
-	height: 450px;
+	height: 500px;
 	padding: 20px;
 	border-radius: 20px;
 }
-
+#start{
+	font-family: 'Georgia';
+	font-size: 18px;
+	text-align: center;
+	width:190px;
+	border-radius: 7px;
+}
+.form p{
+	font-family: 'Georgia';
+	font-size: 17px;
+}
+select{
+	font-family: 'Georgia';
+	font-size: 17px;
+	height: 30px;
+	border-radius: 5px;
+}
+.form button{
+	border-radius: 12px;
+}
 #contact {
     background-color: black;
     height: 150px;
@@ -344,4 +364,12 @@ ul.social li.instagram a {
     background-image: url("../img/instagram-logo.jfif");
     background-size: 45px;
     background-position: center;
+}
+footer p{
+	background-color: black;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	color: yellow;
+	text-align: center;
 }
